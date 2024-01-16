@@ -11,7 +11,7 @@ Resepti vaihtoehdot liha,kana,kala,kasvis.
 Mitä tehdä ylimäärälle.
 
 Sivut:
-- Main, tavallaan vaa pelkkä frontti. Linkit muille sivuille.
+- Main, pelkkä frontti. Linkit muille sivuille.
 - About us, joku siisti tarina.
 - Recipes, kuva,linkki,
 - Information about foodwaste, photos,links,facts.
@@ -23,7 +23,7 @@ Sivut:
 - Sivun pitää olla realistinen.
 - 4 sivua minimissään.
 - Ei saa käyttää HTML pohjia!
-- Bootsrappia saa käyttää elementtien stailaamiseen mut ei koko layouttiin. Pisteet kärsii.
+- Bootstrappia saa käyttää elementtien stailaamiseen mut ei koko layouttiin. Pisteet kärsii.
 - Header,menu,footer samat joka sivulla, keskimmäinen osa eli sisältö saa olla omalaatunen.
 
 ## To do
