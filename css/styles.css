@@ -25,14 +25,14 @@ nav {
   /* Navigation items */
   .nav-item {
     width: 200px;
-    height: 24px;
+    height: auto;
     padding-left: 45px;
     padding-right: 45px;
     padding-top: 14px;
     padding-bottom: 14px;
     background: white;
     border-radius: 50px;
-    overflow: hidden;
+    overflow:visible;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -44,7 +44,7 @@ nav {
     font-size: 28px;
     font-family: Inter;
     font-weight: 500;
-    word-wrap: break-word;
+    word-wrap:normal;
   }
   
   /* Search box */
@@ -90,6 +90,7 @@ nav {
     .main-content {
     position:static;
     align-items: center;
+
   }
   
   /* Website name */
