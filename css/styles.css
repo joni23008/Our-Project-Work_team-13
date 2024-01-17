@@ -1,13 +1,18 @@
+
+
 body {
     background-image: url(/images/pattern-tile.png); 
     background-repeat: repeat-y repeat-x;
-    justify-content: center;
+    justify-content:center;
+
 }
 nav {
-    display: flex;
+    
     align-items: center;
     border: 1px solid white;
     justify-content: space-around;
+    display: flex;
+    
 }
 /* Logo */
 .logo {
@@ -31,7 +36,7 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    display: flex;
+
   }
   
   .nav-item-content {
@@ -83,7 +88,8 @@ nav {
 
   /* Main content container */
     .main-content {
-    position: relative;
+    position:static;
+    align-items: center;
   }
   
   /* Website name */
@@ -92,12 +98,13 @@ nav {
     height: 232px;
     left: 176px;
     top: 225px;
-    position: absolute;
+    position:static;
     color: white;
     font-size: 96px;
     font-family: Inter;
     font-weight: 700;
     word-wrap: break-word;
+    align-items: center;
   }
   
   /* Main content text */
@@ -106,12 +113,13 @@ nav {
     height: 179px;
     left: 176px;
     top: 507px;
-    position: absolute;
+    position:static;
     color: white;
     font-size: 24px;
     font-family: Inter;
     font-weight: 500;
     word-wrap: break-word;
+    align-items: center;
   }
   
   /* Main content image */
@@ -120,7 +128,8 @@ nav {
     height: 500px;
     left: 1000px;
     top: 225px;
-    position: absolute;
+    position:static;
+    align-items: center;
   }
   
   /* Additional content container */
@@ -129,9 +138,9 @@ nav {
     height: 97px;
     left: 345px;
     top: 71px;
-    position: absolute;
+    position:static;
     justify-content: space-between;
     align-items: center;
-    display: inline-flex;
+
   }
   
