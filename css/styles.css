@@ -1,4 +1,14 @@
-
+body {
+    background-image: url(/images/pattern-tile.png); 
+    background-repeat: repeat-y repeat-x;
+    justify-content: center;
+}
+nav {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    justify-content: space-around;
+}
 /* Logo */
 .logo {
     width: 200px;
