@@ -32,28 +32,40 @@ section {
     justify-content: space-between;
 }
 .mikkoLi {
-    
+    display: flex;
+    width: 20px;
+    height: 24px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: white;
+    border-radius: 50px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
     </style>
 </head>
 <body>
     <nav>
-        <img style="width: 200px; height: 150px; position: relative; border: 1px solid black;" src="/images/JokuLogo200x150.png" />
+        <img style="width: 200px; height: 150px; position: relative; border: 1px solid black;" src="../images/JokuLogo200x150.png" />
         <ul class="mikkoUl">
-            <div style="width: 400px; height: 24px; padding-left: 45px; padding-right: 45px; padding-top: 14px; padding-bottom: 14px; background: white; border-radius: 50px; overflow: hidden; justify-content: center; align-items: center; gap: 10px; display: flex">
-                <div style="color: #1D1D1D; font-size: 28px; font-family: Inter; font-weight: 500; word-wrap: break-word">Reseptit</div>
-            </div>
-            <div style="width: 400px; height: 24px; padding-left: 45px; padding-right: 45px; padding-top: 14px; padding-bottom: 14px; background: white; border-radius: 50px; overflow: hidden; justify-content: center; align-items: center; gap: 10px; display: flex">
+            <li class="mikkoLi">
+                <a href="../pages-html/resepti.html" style="color: #1D1D1D; font-size: 28px; font-family: Inter; font-weight: 500; word-wrap: break-word">Reseptit</a>
+            </li>
+            <li class="mikkoLi">
                 <div style="color: #1D1D1D; font-size: 28px; font-family: Inter; font-weight: 500; word-wrap: break-word">Viikon ruokalista</div>
-            </div>
-            <div style="width: 400px; height: 24px; padding-left: 45px; padding-right: 45px; padding-top: 14px; padding-bottom: 14px; background: white; border-radius: 50px; overflow: hidden; justify-content: center; align-items: center; gap: 10px; display: flex">
+            </li>
+            <li class="mikkoLi">
                 <div style="color: #1D1D1D; font-size: 28px; font-family: Inter; font-weight: 500; word-wrap: break-word">Tietoa meistä</div>
-            </div>
+            </li>
         </ul>
         <div style="width: 264px; height: 16px; padding-left: 28px; padding-right: 28px; padding-top: 14px; padding-bottom: 14px; background: white; border-radius: 50px; overflow: hidden; border: 4px #D1D1D1 solid; justify-content: space-between; align-items: center; display: inline-flex">
             <div style="color: #D1D1D1; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Hae</div>
             <div style="width: 24px; height: 24px; position: relative">
-              <img style="width: 20px; height: 20px; left: 2px; top: 2px; position: absolute" src="/images/HakuLogo.png" />
+              <img style="width: 20px; height: 20px; left: 2px; top: 2px; position: absolute" src="../images/HakuLogo.png" />
             </div>
         </div>
     </nav>
@@ -63,7 +75,7 @@ section {
             <div style="width: 600px; height: 250px; color: white; font-size: 24px; font-family: Inter; font-weight: 500; word-wrap: break-word">Jotain hyvää. Jotain, jota on helppo valmistaa paljon tai jotain, joka täyttää hyvin. Lorum ipsum. Lorum ipsum. Lorum ipsum. Lorum ipsum. Lorum ipsum. Lorum ipsum. Lorum ipsum. Lorum ipsum. Lorum ipsum. Lorum ipsum. </div>
         </section>
         <section style="width: 960px; align-items: flex-end;">
-            <img style="width: 750px; height: 500px; border: 1px solid black;" src="/images/webpageimage1.jpg" />
+            <img style="width: 750px; height: 500px; border: 1px solid black;" src="../images/webpageimage1.jpg" />
         </section>
     </header>
 </body>
