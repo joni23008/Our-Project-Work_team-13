@@ -28,16 +28,16 @@ Sivut:
 
 ## To do
 - Design
-- Recipes page
+
 
 ### Joni
-**Tehtävät** main sivu, leikin managerii, esitellä sivun alustavasti
+**Tehtävät** main-sivu ja reseptit-sivu
 
 ### Mikko
-**Tehtävät** foodwaste sivu
+**Tehtävät** viikon ruokalista-sivu
 
 ### Henri
-**Tehtavat** about us
+**Tehtavat** tietoa meistä-sivu
 
 - We all did a Figma-design and chose the best one
 - Decided everyone does one page and for me it was the page "About Us"
