@@ -28,14 +28,14 @@ Sivut:
 
 ## To do
 - Design
-- Recipes page
+
 
 ### Joni
-**Tehtävät** main sivu, leikin managerii, esitellä sivun alustavasti
+**Tehtävät** main-sivu ja reseptit-sivu
 
 ### Mikko
-**Tehtävät** foodwaste sivu
+**Tehtävät** viikon ruokalista-sivu
 
 ### Henri
-**Tehtavat** about us
+**Tehtavat** tietoa meistä-sivu
 

@@ -88,8 +88,8 @@ nav {
 
   /* Main content container */
     .main-content {
-    position:static;
-    align-items: center;
+    position: static;
+    align-items:center;
 
   }
   
@@ -135,13 +135,16 @@ nav {
   
   /* Additional content container */
   .additional-content {
-    width: 895px;
-    height: 97px;
-    left: 345px;
-    top: 71px;
-    position:static;
-    justify-content: space-between;
-    align-items: center;
 
+    position:static;
+    align-items: center;
+    color: #D1D1D1;
+
+  }
+
+  footer{
+    color: #D1D1D1;
+    background-color: black;
+    text-align: center;
   }
   
