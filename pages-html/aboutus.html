@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="Team 13">
+    <title>About Us</title>
     <link rel="stylesheet" type="text/css" href="../css/styles.css">
     <link rel="stylesheet" type="text/css" href="../css/styles_Henkka.css">
 
@@ -15,6 +16,7 @@
             margin: auto;
             max-width: auto;
         }
+        
         nav {
             display: flex;
             align-items: center;
@@ -26,39 +28,62 @@
 
 <body>
     
-    <nav style="display: flex; justify-content: space-around; align-items: center; background-color: #1D1D1D; padding: 10px;">
-        <img style="width: 20%; max-width: 200px; height: auto; border: 1px solid white;" src="../images/JokuLogo200x150.png" />
-        
-        <div style="flex-grow: 1; text-align: center;">
-            <div style="color: #e7e3e3; font-size: 28px; font-family: Inter; font-weight: 500; word-wrap: break-word">Reseptit</div>
-        </div>
-
-        </div>
-        
-        <div style="flex-grow: 1; text-align: center;">
-            <div style="color: #ffffff; font-size: 1.5em; font-family: Inter; font-weight: 500;">Viikon ruokalista</div>
-        </div>
-        
-        <div style="flex-grow: 1; text-align: center;">
-            <div style="color: #ffffff; font-size: 1.5em; font-family: Inter; font-weight: 500;">Tietoa meistä</div>
-        </div>
-        
-        <div style="display: flex; align-items: center;">
-            <div style="color: #D1D1D1; font-size: 1.2em; font-family: Inter; font-weight: 500; margin-right: 10px;">Hae</div>
-            <img style="width: 20px; height: 20px;" src="../images/HakuLogo.png" />
-        </div>
-    </nav>
+    <nav>
+        <!-- Logo -->
+        <img class="logo" src="../images/JokuLogo200x150.png" />
     
-      
-      <main>
+        <!-- Reseptit -->
+        <div class="nav-item">
+          <div class="nav-item-content">
+            Reseptit
+          </div>
+        </div>
+    
+        <!-- Viikon ruokalista -->
+        <div class="nav-item">
+          <div class="nav-item-content">
+            Viikon ruokalista
+          </div>
+        </div>
+    
+        <!-- Tietoa meistä -->
+        <div class="nav-item">
+          <div class="nav-item-content">
+            Tietoa meistä
+          </div>
+        </div>
+    
+        <!-- Hae -->
+        <div class="search-box">
+          <div class="search-text">
+            
+          </div>
+          <div class="search-icon">
+            <img src="../images/HakuLogo.png" />
+          </div>
+        </div>
+      </nav>
+    
 
-      <h1>Tietoa meistä</h1>
+      <main class="imgtxt">
+        
+            <div class="left-content">
+                <header class="header">Tietoa meistä</header>
+                <div class="infous">
+                    <p>Mitäs tänään syötäisiin perustettiin vastaamaan jokapäiväiseen kysymykseen; mitäs tänään syötäisiin? Sivuiltamme löydät helpot reseptit niin arkeen kuin juhlaankin. Tulevaisuudessa sinulla on mahdollisuus syöttää kotontasi löytyvät raaka-aineet reseptigeneraattoriimme ja antaa sen loihtia sinulle herkullisia annoksia niiden pohjalta</p>
+                </div>
+            </div>
+    
+            <div class="right-content">
+                <img class="ruokakuva" src="../images/ruokakuva aboutus.jpg" alt="Different plates">
+            </div>
+            
+            <div class="additional-content"></div>
+        </div>
+    </main>
+    
+    
+    
 
-      <section>
-        Sivumme on luotu vastaamaan jokapäiväiseen kysymykseen: <b>Mitä tänään syötäisiin?</b> Aina ei jaksa pohtia mitä kaapeista löytyvistä aineksista saisi valmistettua, mutta me tarjoamme sinulle valmiita ideoita! 
-      </section>
-
-
-      </main>
 </body>
 </html>

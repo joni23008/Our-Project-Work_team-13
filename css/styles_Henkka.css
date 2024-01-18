@@ -1,13 +1,40 @@
-.header{
+.imgtxt {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     
-
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
-.infotekstit{
-    display: flexbox;
-    flex-direction: column;
-
+.left-content {
+   justify-content: flex-start;
+   flex: 1;
 }
+
+.right-content {
+   
+    padding-top: 50px;
+    margin-left: 20px; 
+    justify-content: space-around;
+}
+
+.header {
+    color: white;
+    font-size: 30px;
+    text-align: left; 
+    margin-bottom: 10px; 
+}
+
+.infous {
+    color: white;
+    font-size: 18px;
+    text-align:start;
+}
+
+.ruokakuva {
+    width: 600px;
+    height: 450px;
+    margin-left: 200px;
+    
+}
+
