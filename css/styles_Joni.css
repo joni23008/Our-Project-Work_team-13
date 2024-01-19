@@ -9,7 +9,6 @@ body {
 nav {
     
     align-items: center;
-    border: 1px solid white;
     justify-content: space-around;
     display: flex;
     
@@ -19,7 +18,6 @@ nav {
     width: 200px;
     height: 150px;
     position: relative;
-    border: 1px solid white;
   }
   
   /* Navigation items */
@@ -58,7 +56,6 @@ nav {
     background: white;
     border-radius: 50px;
     overflow: hidden;
-    border: 4px #D1D1D1 solid;
     justify-content: space-between;
     align-items: center;
     display: inline-flex;
