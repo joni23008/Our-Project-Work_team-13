@@ -1,0 +1,36 @@
+body {
+    background-image: url(../images/pattern-tile.png); 
+    background-repeat: repeat-y repeat-x;
+    margin: auto;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+section {
+    display: flex;
+    flex-direction: column;
+}
+.mikkoUl {
+    display: flex;
+    justify-content: space-between;
+}
+.mikkoLi {
+    display: flex;
+    width: 200px;
+    height: 24px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: white;
+    border-radius: 50px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
