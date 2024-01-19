@@ -27,11 +27,22 @@ Sivut:
 - Header,menu,footer samat joka sivulla, keskimmäinen osa eli sisältö saa olla omalaatunen.
 
 ## To do
-- Design
+- Kattokaa kaikki et teiän linkit toimivat.
+Eli, logosta pääsee index.html sivulle.
+resepteistä resepteihin jne.
+- Kun ootte tyytyväisiä siihe mitä ootte tehny HTML ja CSS niin ajakaa ne niitte validation sivujen läpi. Voi myös tsekkaa arviointikriteerit läpi ja jos huomaa helppoja paikkoja mistä sais pisteitä nii go for it.
+- Valmistaudu palautus kokoukseen. Lue moodlesta ohjeet.Joni aloittaa (5 min)Zoom tapaamisessa ja näyttää Website Demon. Sitten voi olla vaik Henrin vuoro (3 min) ja kerrot mitä oot tehny. Vikana vaik Mikko (3 min) ja sama homma kerrot mitä oot tehny.
+
 
 
 ### Joni
-**Tehtävät** main-sivu ja reseptit-sivu
+**Tehtävät**
+main-sivu ja reseptit-sivu
+**Mitä tein**
+- Made index.html file and recipe.html.
+- We all did Figma-design and chose the best one.
+- Made my own version of the CSS file.
+- Overviewed everybodys work before submitting
 
 ### Mikko
 **Tehtävät** viikon ruokalista-sivu
