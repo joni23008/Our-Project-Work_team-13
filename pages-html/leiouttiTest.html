@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Team 13">
+    <meta name="description" content="recipes, food, info about foodwaste ">
+    <meta name="keywords"   content="recipes, food, foodwaste, what to eat">
     <title>Document</title>
     <link rel="stylesheet" href="../css/styles_Mikko.css">
 </head>
@@ -20,21 +23,28 @@
                 <a href="../pages-html/aboutus.html" style="color: #1D1D1D; font-size: 28px; font-family: Inter; font-weight: 500; word-wrap: break-word">Tietoa meistä</a>
             </li>
         </ul>
-        <div style="width: 264px; height: 16px; padding-left: 28px; padding-right: 28px; padding-top: 14px; padding-bottom: 14px; background: white; border-radius: 50px; overflow: hidden; border: 4px #D1D1D1 solid; justify-content: space-between; align-items: center; display: inline-flex">
-            <div style="color: #D1D1D1; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Hae</div>
-            <div style="width: 24px; height: 24px; position: relative">
-              <img style="width: 20px; height: 20px; left: 2px; top: 2px; position: absolute" src="../images/HakuLogo.png" />
-            </div>
-        </div>
+        <form class="hakupalkki">
+            <input class="Hae" type="search" placeholder="Hae">
+            <button class="HakuNappi" type="submit">
+                <img style="width: 20px; height: 20px;" src="../images/HakuLogo.png"/>
+            </button>
+        </form>
     </nav>
-    <header>
-        <section style="width: 960px; align-items: center;">
-            <div style="width: 600px; height: 250px; color: white; font-size: 96px; font-family: Inter; font-weight: 700; word-wrap: break-word">Mitä tänään syötäisiin?</div>
-            <div style="width: 600px; height: 250px; color: white; font-size: 24px; font-family: Inter; font-weight: 500; word-wrap: break-word">Jotain hyvää. Jotain, jota on helppo valmistaa paljon tai jotain, joka täyttää hyvin. Lorum ipsum. Lorum ipsum. Lorum ipsum. Lorum ipsum. Lorum ipsum. Lorum ipsum. Lorum ipsum. Lorum ipsum. Lorum ipsum. Lorum ipsum. </div>
-        </section>
-        <section style="width: 960px; align-items: flex-end;">
-            <img style="width: 750px; height: 500px;" src="../images/webpageimage1.jpg" />
-        </section>
-    </header>
+    <div class="flex-grid">
+        <div class="col">
+            <a href="../pages-html/reseptit_Joni.html"><p style="text-justify: center; text-align: center; width: 729px; height: 232px; color: white; font-size: 96px; font-family: Inter; font-weight: 700; margin-left: auto;">Herne keitto maanantai.</p></a>
+        </div>
+        <div class="col">
+            <a href="../pages-html/reseptit_Joni.html"><img class="main-image" src="../images/hernekeitto.JPG" alt="Webpage Image 1"></a>
+        </div>
+    </div>
+    <div class="flex-grid">
+        <div class="col" style="border: 1px #fff solid;">
+            <a href="../pages-html/reseptit_Joni.html"><img style="border: 1px #fff solid; right: 10px; left: 2000px; width: 750px; height: 500px;" src="../images/hernekeitto.JPG" alt="Webpage Image 1"></a>
+        </div>
+        <div class="col" style="border: 1px #fff solid;">
+            <a href="../pages-html/reseptit_Joni.html"><p style="text-justify: center; text-align: center; width: 729px; height: 232px; color: white; font-size: 96px; font-family: Inter; font-weight: 700;">Herne keitto tiistai.</p></a>
+        </div>
+    </div>
 </body>
 </html>
