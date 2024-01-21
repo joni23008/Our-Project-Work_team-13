@@ -5,23 +5,18 @@ body {
 }
 nav {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .main-image {
     width: 750px;
     height: 500px;
     align-items: center;
 }
-.mikkoUl {
+.navLink {
     display: flex;
-    justify-content: space-between;
-}
-.mikkoLi {
-    display: flex;
-    width: 200px;
-    height: 24px;
-    padding: 14px 45px 14px 45px;
+    padding: 10px 45px 10px 45px;
     background-color: #fff;
     border-radius: 50px;
     overflow: hidden;
@@ -29,16 +24,13 @@ nav {
     align-items: center;
 }
 .hakupalkki {
-    margin-left: 200px;
-    width: 264px;
-    height: 16px;
-    padding: 14px 28px 14px 28px;
+    padding: 1px 28px 1px 28px;
     background: #fff;
     border-radius: 50px;
     overflow: hidden;
     border: 4px #D1D1D1 solid;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .Hae {
@@ -59,6 +51,10 @@ nav {
 }
 a {
     text-decoration: none;
+    color: #1D1D1D;
+    font-size: 28px;
+    font-family: Inter;
+    font-weight: 500;
 }
 .flex-grid {
     display: flex;
