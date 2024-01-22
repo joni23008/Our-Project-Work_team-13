@@ -27,6 +27,12 @@ p {
     font-family: Inter;
     font-weight: 500;
 }
+footer{
+    color: #fff;
+    background-color: inherit;
+    margin-top: 50px;
+    text-align: center;
+}
 .main-image {
     width: 750px;
     height: 500px;
