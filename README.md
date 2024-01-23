@@ -41,7 +41,12 @@ main-sivu ja reseptit-sivu
 - Overviewed everybodys work before submitting and made adjustments if necessary.
 
 ### Mikko
-**Tehtävät** viikon ruokalista-sivu
+**Tehtävät**
+viikon ruokalista-sivu
+**Mitä tein**
+- Made ruokalista.html
+- We all did Figma-design and chose the best one.
+- Made CSS-file for ruokalista.html (styles_Mikko.css)
 
 ### Henri
 **Tehtavat** tietoa meistä-sivu
