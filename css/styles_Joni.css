@@ -2,7 +2,6 @@
 
 body {
     background-image: url(../images/pattern-tile.png); 
-    background-repeat: repeat-y repeat-x;
     justify-content:center;
 
 }
