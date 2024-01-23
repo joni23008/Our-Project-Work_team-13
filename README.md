@@ -1,6 +1,4 @@
 # Our-Project-Work_team-13
- 
-# Our-Project-Work_team-13
 
 ## Idea
 
@@ -16,8 +14,6 @@ Sivut:
 - Recipes, kuva,linkki,
 - Information about foodwaste, photos,links,facts.
 
-[link to your layout]
-(http://)
 
 ## Ohjeet/Säännöt
 - Sivun pitää olla realistinen.
@@ -42,7 +38,7 @@ main-sivu ja reseptit-sivu
 - Made index.html file and recipe.html.
 - We all did Figma-design and chose the best one.
 - Made my own version of the CSS file.
-- Overviewed everybodys work before submitting
+- Overviewed everybodys work before submitting and made adjustments if necessary.
 
 ### Mikko
 **Tehtävät** viikon ruokalista-sivu
