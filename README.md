@@ -53,5 +53,5 @@ main-sivu ja reseptit-sivu
 - We all did a Figma-design and chose the best one
 - Decided everyone does one page and for me it was the page "About Us"
 - Started working on the page, made my own CSS-file to modify the page how I wanted it to look like
--
+
 
