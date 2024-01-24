@@ -7,8 +7,35 @@
   <meta name="description" content="reseptit,ruokalista,tietoa,meistä,mitä tänään syötäisiin">
   <meta name="keywords"   content="reseptit,ruokalista,tietoa,meistä,mitä tänään syötäisiin">
   <link rel="stylesheet" href="../css/styles_Joni.css">
-  
   <title>Mitä tänään syötäisiin?</title>
+  <style>
+    .hakupalkki {
+      padding: 1px 28px 1px 28px;
+      background: #fff;
+      border-radius: 50px;
+      overflow: hidden;
+      border: 4px #D1D1D1 solid;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .Hae {
+      border: none;
+      float: right;
+      padding: 10px;
+      outline: 0;
+      font-family: Inter;
+      text-decoration-color: #D1D1D1;
+      font-size: 20px;
+      font-weight: 500;
+    }
+    .HakuNappi {
+      border: 0;
+      cursor: pointer;
+      appearance: none;
+      background-color: inherit;
+    }
+  </style>
 </head>
 <body>
 
@@ -42,14 +69,12 @@
     </div>
 
     <!-- Hae -->
-    <div class="search-box">
-      <div class="search-text">
-        Hae
-      </div>
-      <div class="search-icon">
-        <img src="../images/HakuLogo.png" />
-      </div>
-    </div>
+    <form class="hakupalkki">
+      <input class="Hae" type="search" placeholder="Hae" alt="Haku kenttä">
+      <button class="HakuNappi" type="submit">
+        <img style="width: 20px; height: 20px;" src="../images/HakuLogo.png" alt="Hae nappi"/>
+      </button>
+    </form>
   </nav>
 
   <!-- Main content -->
