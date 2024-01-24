@@ -32,10 +32,12 @@ footer{
     margin-top: 50px;
     text-align: center;
 }
+/* Image size */
 .main-image {
     width: 750px;
     height: 500px;
 }
+/* Nav bar links */
 .navLink {
     display: flex;
     padding: 10px 45px 10px 45px;
@@ -45,6 +47,7 @@ footer{
     justify-content: center;
     align-items: center;
 }
+/* Search bar */
 .hakupalkki {
     padding: 1px 28px 1px 28px;
     background: #fff;
@@ -55,6 +58,7 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
+/* Search bar text box */
 .Hae {
     border: none;
     float: right;
@@ -65,6 +69,7 @@ footer{
     font-size: 20px;
     font-weight: 500;
 }
+/* Search bar submit button */
 .HakuNappi {
     border: 0;
     cursor: pointer;
@@ -78,6 +83,7 @@ a {
     font-family: Inter;
     font-weight: 500;
 }
+/* Main content grid */
 .flex-grid {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
