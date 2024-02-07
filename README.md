@@ -29,6 +29,9 @@ resepteistä resepteihin jne.
 - Kun ootte tyytyväisiä siihe mitä ootte tehny HTML ja CSS niin ajakaa ne niitte validation sivujen läpi. Voi myös tsekkaa arviointikriteerit läpi ja jos huomaa helppoja paikkoja mistä sais pisteitä nii go for it.
 - Valmistaudu palautus kokoukseen. Lue moodlesta ohjeet.Joni aloittaa (5 min)Zoom tapaamisessa ja näyttää Website Demon. Sitten voi olla vaik Henrin vuoro (3 min) ja kerrot mitä oot tehny. Vikana vaik Mikko (3 min) ja sama homma kerrot mitä oot tehny.
 
+### To do ###
+form bootstrapilla, vaik joku uutiskirje tai jotai mikä lähtee tietokantaan
+
 
 
 ### Joni
